@@ -1,3 +1,4 @@
+// this api needs vpn otherwise it does not show the components of the games
 import axios from "axios";
 
 export default axios.create({
