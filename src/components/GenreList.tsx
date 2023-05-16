@@ -17,6 +17,8 @@ interface Props {
 
 const GenreList = ({ selectedGenre, onSelectedGenre }: Props) => {
   const { data, isLoading, error } = useData<Genre>("/genres");
+
+  // these two are use for dynamic shipping data but now we dont need these because we use static shipping data.
   if (error) return null;
   if (isLoading) return <Spinner />;
 
