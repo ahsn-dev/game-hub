@@ -6,6 +6,7 @@ With GameHub, you can search for games by platform, genre, and more.
 
 
 
+
 ## Getting Started
 
 To get started with GameHub, follow these steps:
